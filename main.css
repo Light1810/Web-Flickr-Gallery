@@ -1,6 +1,22 @@
+body,.search {  min-width:600px; }
+
+.multicolortext {
+  font-size:64px;
+  background-image: linear-gradient(to left,#FF0084,#FF0084,#0063DC,#0063DC,#0063DC);  
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+  }
+
+
 .resultImage {
     padding: 10px;   
-    margin: 50px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     width: 200px;
     height: 200px;
     transition: transform .2s; /* Animation */
@@ -8,7 +24,7 @@
   }
 
   .resultImage:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 0.7;
   }
 
   input{
@@ -20,6 +36,21 @@
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box; 
+  }
+
+  .search{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  
   }
 
   button{

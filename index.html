@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Flickr-Gallery</title>
 </head>
 <body>
     <center>
-    <h1>Flicker Gallery</h1>
+    <h1 id="WebPageName" class="multicolortext">Flickr Gallery</h1>
+
+    <div id="searchBar" class="search">
     <input type="text" id="key">
-    <br>
-    <button id='btnSearch'>Search Images</button>
+    <button id='btnSearch' class="fa fa-search" > Search</button>
+    </div>
+
     
         <div id='divResult'>
-            Hello world
-            
+            No Images Found!  
     
         </div>
     </center>
